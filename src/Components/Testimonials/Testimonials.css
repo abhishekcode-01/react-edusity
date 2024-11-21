@@ -1,0 +1,85 @@
+.testimonials{
+    margin: 80px auto;
+    padding: 0 80px;
+    position: relative;
+    
+}
+.next-btn,.back-btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #00008b;
+    color: #ffffff;
+    
+}
+.back-btn{
+    left: 0;
+}
+.slider{
+    overflow: hidden;
+}
+.slider ul{
+    width: 200%;
+    overflow: hidden;
+    display: flex;
+    transition: 0.8s;
+    
+}
+.slider ul li{
+    list-style: none;
+    width: 50%;
+    padding: 20px;
+}
+.slide{
+    box-shadow: 0 0 20px rgba(0,0,0,0.07);
+    padding: 40px;
+    line-height: 1.4;
+    border-radius: 10px;
+    color: #676767;
+}
+.slide img{
+    width: 58px;
+    border-radius: 50%;
+    border: 3px solid #00008b;
+    margin-right: 10px;
+}
+.user-information h3{
+    color: #00008b;
+}
+@media(max-width: 800px){
+    .testimonials{
+        padding: 0 40px;
+    }
+    .back-btn, .next-btn{
+        padding: 10px;
+        width: 35px;
+    }
+    .testimonials ul li{
+        padding: 10px;
+    }
+    .slide{
+        padding: 10px;
+    }
+    .user-information img{
+        width: 50px;
+        border: 2px solid #00008b;
+    }
+}
+@media(max-width: 600px){
+    .user-information{
+        display: block;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .user-information h3{
+        font-size: 13px;
+    }
+    .user-information span{  
+        font-size: 12px;   
+    }
+}
