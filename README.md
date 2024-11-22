@@ -1,4 +1,5 @@
 Edusity
+
 Edusity is a modern and responsive web application built for educational purposes, offering a seamless user experience for students, teachers, and education enthusiasts. The platform demonstrates the power of cutting-edge frontend technologies to create dynamic and interactive user interfaces.
 
 🌟 Features
